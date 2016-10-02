@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Voltaire';
+@import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+
+/* CSS Document */
+
+.active {
+    color: #5aab2b;
+}
+
+html {
+	background: #202020;
+	height: 100vh;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background: #fafafa;
+}
+
+ul {
+    text-align: center;
+    padding-top: 35px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    margin: 0 40px 0 40px;
+}
+
+a {
+    color: #202020;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A7BAA1; 
+}
+
+a:active {
+    color: #3D6231;
+    text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Slabo 27px', sans-serif;
+	font-size: 32px;
+	margin-bottom: 30px;
+	padding: 20px 10px 0 10px;
+}
+
+h2 {
+	text-align: center;
+	color: #fafafa;
+	font-family: 'Slabo 27px', sans-serif;
+	font-size: 32px;
+	margin-bottom: 30px;
+	padding: 20px 10px 0 10px;
+}
+
+.myform {
+	width: 350px;
+	min-height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background: #fafafa;
+	border-radius: 10px;
+}
+
+input {
+	text-align:center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fafafa;
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Slabo 27px', sans-serif;
+	border-radius: 5px;
+	border: solid 1px #5aab2b;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fafafa;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	border: solid 1px #202020;
+	transition: background-color 0.7s ease;	
+	cursor: pointer;
+}
+
+button:hover {
+	background: #5aab2b;
+}
+
+.submit {
+	text-align:center;
+	font-size: 15px;
+	font-family: 'Slabo 27px', sans-serif;	
+	transition: color 0.7s ease;	
+	color: #5aab2b;
+}
+
+.submit:hover {
+	color: #fafafa;
+	border: none;
+}
